@@ -1,4 +1,4 @@
-module github.com/nanoteck137/swadloon
+module github.com/nanoteck137/drup
 
 go 1.21
 

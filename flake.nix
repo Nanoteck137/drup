@@ -1,8 +1,8 @@
 {
-  description = "Swadloon";
+  description = "Drup";
 
   inputs = {
-    nixpkgs.url      = "github:NixOS/nixpkgs/nixos-unstable";
+    nixpkgs.url      = "github:NixOS/nixpkgs/nixos-24.05";
     flake-utils.url  = "github:numtide/flake-utils";
   };
 
@@ -15,15 +15,15 @@
         };
 
         program = pkgs.buildGoModule {
-          pname = "swadloon";
+          pname = "drup";
           version = self.shortRev or "dirty";
           src = ./.;
-          vendorHash = "sha256-ypoSM5rkTb3NF6gDYoBgYWEPkn1kxTPn1CvAGTJ9l3E=";
+          vendorHash = "sha256-/EXKoXiejgmx4G/yJDNMd+wKhfflmvtyVnnCdzd8BgI=";
         };
       in
       {
         packages.default = program;
-        packages.swadloon = program;
+        packages.drup = program;
 
         devShells.default = pkgs.mkShell {
           buildInputs = with pkgs; [

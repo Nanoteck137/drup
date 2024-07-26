@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/nanoteck137/swadloon/cmd"
+	"github.com/nanoteck137/drup/cmd"
 )
 
 func main() {

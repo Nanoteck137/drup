@@ -8,7 +8,7 @@ import (
 	"strconv"
 
 	"github.com/PuerkitoBio/goquery"
-	"github.com/nanoteck137/swadloon/utils"
+	"github.com/nanoteck137/drup/utils"
 	"github.com/spf13/cobra"
 )
 

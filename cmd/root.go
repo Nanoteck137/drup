@@ -7,7 +7,7 @@ import (
 )
 
 var rootCmd = &cobra.Command{
-	Use: "swadloon",
+	Use: "drup",
 }
 
 func Execute() {
