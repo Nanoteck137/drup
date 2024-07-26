@@ -7,7 +7,7 @@ require (
 	github.com/charmbracelet/huh v0.5.1
 	github.com/flytam/filenamify v1.2.0
 	github.com/kr/pretty v0.3.1
-	github.com/spf13/cobra v1.8.0
+	github.com/spf13/cobra v1.8.1
 )
 
 require (
@@ -35,6 +35,7 @@ require (
 	github.com/muesli/ansi v0.0.0-20230316100256-276c6243b2f6 // indirect
 	github.com/muesli/cancelreader v0.2.2 // indirect
 	github.com/muesli/termenv v0.15.2 // indirect
+	github.com/nanoteck137/sewaddle-core v0.0.3 // indirect
 	github.com/rivo/uniseg v0.4.7 // indirect
 	github.com/rogpeppe/go-internal v1.9.0 // indirect
 	github.com/spf13/pflag v1.0.5 // indirect
