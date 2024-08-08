@@ -7,7 +7,7 @@ import (
 	"strconv"
 
 	"github.com/charmbracelet/huh"
-	"github.com/nanoteck137/sewaddle-core/library"
+	"github.com/nanoteck137/sewaddle/library"
 	"github.com/spf13/cobra"
 )
 

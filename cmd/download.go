@@ -7,7 +7,7 @@ import (
 	"strconv"
 
 	"github.com/kr/pretty"
-	"github.com/nanoteck137/sewaddle-core/library"
+	"github.com/nanoteck137/sewaddle/library"
 	"github.com/nanoteck137/drup/utils"
 	"github.com/spf13/cobra"
 )
